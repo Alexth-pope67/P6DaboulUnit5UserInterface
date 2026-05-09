@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 599532640754800357}
   - component: {fileID: 1430523096624962513}
   - component: {fileID: 6825936266452233170}
-  - component: {fileID: 4009895818816883254}
   - component: {fileID: -7277092077143753063}
   - component: {fileID: -7855436750428745798}
+  - component: {fileID: 2861335499169980754}
   m_Layer: 0
   m_Name: Good 1
   m_TagString: Untagged
@@ -89,18 +89,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4009895818816883254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5314023822057631457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c763d1c97ff88b34a944e883279363f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Target
 --- !u!54 &-7277092077143753063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -109,7 +97,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5314023822057631457}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.9
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -149,3 +137,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.554324, y: 1.5543231, z: 1.5543228}
   m_Center: {x: 0, y: 0.77716154, z: 0}
+--- !u!114 &2861335499169980754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5314023822057631457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e589a2fbd4cf945b969b64d1c90940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointValue: 5
+  explosionParticle: {fileID: 5112437202714306363, guid: 7b4191607aae74c0ab244a8d6e48adbf, type: 3}
